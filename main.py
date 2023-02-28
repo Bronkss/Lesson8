@@ -47,13 +47,6 @@ read_last(5, 'file.txt')
 #
 # longest_words('article.txt')
 
-# with open('article.txt', ) as f:
-#     for letter in (f.readline().split()):
-#         print(letter)
-#         for line in f:
-#             print(len(line), 'symbols.')
-
-
 def longest_words(path):
     with open(path, 'r', encoding='utf-8') as file:
         list_str = file.read().split()
